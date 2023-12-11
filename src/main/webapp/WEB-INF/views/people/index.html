@@ -5,12 +5,17 @@
     <title>Index</title>
 </head>
 <body>
-
+<form th:method="DELETE" th:action="@{/people}">
+    <input type="submit" value="Delete All"/>
+</form>
 <div th:each="person : ${people}">
     <a th:href="@{/people/{id}(id=${person.getId()})}" th:text="${person.getName() + ', ' + person.getAge()}">user</a>
 </div>
 <br/>
 <hr/>
 <a href="/people/new">New Person</a>
+<br/>
+<hr/>
+<a href="/test-batch-update">Test Update</a>
 </body>
 </html>

@@ -9,13 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e88635a4-0230-438e-b39e-84c78fa2aaf6" name="Changes" comment="grud dao with postresql">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/dao/PersonMapper.java" afterDir="false" />
+    <list default="true" id="e88635a4-0230-438e-b39e-84c78fa2aaf6" name="Changes" comment="jdbc template&#10;properties to connect database&#10;file original">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/controllers/BachController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gordeev/spring/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties.origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/database.properties.origin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +59,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vadim Gordeev/IdeaProjects/GRUDProject/src/main/webapp/WEB-INF&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vadim Gordeev/IdeaProjects/GRUDProject/src/main/webapp/WEB-INF/views/bach&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -71,6 +74,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vadim Gordeev\IdeaProjects\GRUDProject\src\main\webapp\WEB-INF\views\bach" />
       <recent name="C:\Users\Vadim Gordeev\IdeaProjects\GRUDProject\src\main\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -198,7 +202,10 @@
       <workItem from="1701902913836" duration="4715000" />
       <workItem from="1701977881506" duration="6269000" />
       <workItem from="1702073242825" duration="7746000" />
-      <workItem from="1702157138441" duration="3394000" />
+      <workItem from="1702157138441" duration="5683000" />
+      <workItem from="1702231997555" duration="7866000" />
+      <workItem from="1702295259432" duration="1207000" />
+      <workItem from="1702321610353" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="grud with class dao">
       <created>1701996365614</created>
@@ -221,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701998775779</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jdbc template&#10;properties to connect database&#10;file original">
+      <created>1702167745432</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702167745432</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +256,7 @@
     <MESSAGE value="grud whit class dao" />
     <MESSAGE value="grud with class dao" />
     <MESSAGE value="grud dao with postresql" />
-    <option name="LAST_COMMIT_MESSAGE" value="grud dao with postresql" />
+    <MESSAGE value="jdbc template&#10;properties to connect database&#10;file original" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc template&#10;properties to connect database&#10;file original" />
   </component>
 </project>
